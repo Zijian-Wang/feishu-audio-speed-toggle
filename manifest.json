@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "飞书音频插件 - 倍速播放与下载",
+  "version": "0.1.0",
+  "description": "为飞书文档音频播放器添加倍速播放与下载功能。",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.feishu.cn/docx/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}
