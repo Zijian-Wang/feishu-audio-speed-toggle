@@ -2,9 +2,17 @@
 
 一个非官方的开源 Chrome 扩展，为飞书文档音频播放器增加倍速播放和下载按钮。本项目与飞书/Lark 官方无关联。
 
+![软件界面截图](docs-readme-screenshot.png)
+
 为 `feishu.cn` 飞书文档中的 HTML 音频播放器添加 `1x / 1.5x / 1.75x / 2x / 3x` 下拉菜单和下载图标。
 
 ## 安装
+
+### 下载 release ZIP
+
+从 [Releases](https://github.com/Zijian-Wang/feishu-audio-speed-toggle/releases) 下载最新的 `feishu-audio-plugin-v*.zip`，解压后按下面的“加载已解压的扩展程序”步骤安装。
+
+> Chrome 的普通 ZIP 不能双击直接安装；一键安装需要通过 Chrome Web Store 发布。
 
 1. 打开 Chrome 的 `chrome://extensions/`。
 2. 打开右上角“开发者模式”。
